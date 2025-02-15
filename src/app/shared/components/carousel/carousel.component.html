@@ -1,0 +1,20 @@
+<section id="titre-bloc-3" class="sections">
+    <h2 class="section-title">TITRE BLOC 3</h2>
+    <div class="carousel-container">
+        <button class="carousel-button prev" (click)="prevSlide()">&#10094;</button>
+        <div class="carousel-track-wrapper">
+          <div class="carousel-track" #carouselTrack>
+            <div class="carousel-card" *ngFor="let item of carouselItems">
+              <img [src]="item.imageUrl" alt="Carousel Item">
+              <div class="carousel-content">
+                <h3>{{ item.title }}</h3>
+                <p>{{ getShortDescription(item.description) }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-button next" (click)="nextSlide()">&#10095;</button>
+      </div>
+</section>
+
+  

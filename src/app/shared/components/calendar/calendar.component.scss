@@ -1,0 +1,136 @@
+.calendar-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e65100;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-wrapper {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar-table th, .calendar-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .free {
+    color: #ff5722;
+    border: 2px solid #ff5722;
+    background: #fff;
+  }
+  
+  .occupied {
+    color: #aaa;
+    background: #f5f5f5;
+  }
+  
+  .disabled {
+    color: #ccc;
+    background: #eeeeee;
+  }
+  
+  .calendar-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .calendar-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .calendar-form input,
+  .calendar-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .calendar-form input:focus,
+  .calendar-form textarea:focus {
+    border-color: #ff5722;
+    outline: none;
+  }
+  
+  .calendar-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .calendar-form a {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .clear-btn, .send-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .send-btn {
+    background: #ff5722;
+    color: white;
+  }
+  
+  .send-btn:hover {
+    background: #e64a19;
+  }
+  
+  .clear-btn {
+    background: #ddd;
+    color: #333;
+  }
+  
+  .clear-btn:hover {
+    background: #bbb;
+  }

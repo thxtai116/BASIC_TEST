@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Responsive Styles */
+
+/* Small Devices (Phones) */
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero {
+      height: 60vh;
+      padding: 20px;
+    }
+  
+    .hero-content h1 {
+      font-size: 24px;
+    }
+  
+    .map-container {
+      padding: 40px 10px;
+    }
+  
+    .calendar-container {
+      padding: 40px 10px;
+    }
+    
+    .carousel-track {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+  }
+  
+  /* Tablets and Small Laptops */
+  @media (max-width: 1024px) {
+    .hero-content {
+      max-width: 80%;
+    }
+  
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  
+    .map-container,
+    .calendar-container {
+      padding: 60px 20px;
+    }
+  
+    .carousel-track {
+      gap: 10px;
+    }
+  }
+  

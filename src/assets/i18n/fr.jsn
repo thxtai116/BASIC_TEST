@@ -1,0 +1,15 @@
+{
+  "HEADER": {
+    "TITLE": "Explorez avec BASIC",
+    "SUBTITLE": "Commencez votre aventure maintenant"
+  },
+  "FOOTER": {
+    "CONTACT": "Nous contacter",
+    "BLOG": "Blog",
+    "ADDRESS": "Québec, 3100 Boulevard de la Côte-Vertu"
+  },
+  "BUTTON": {
+    "BOOK_NOW": "Réservez Maintenant",
+    "LEARN_MORE": "En savoir plus"
+  }
+}
